@@ -1,0 +1,121 @@
+openapi: 3.0.3
+info:
+  title: Calculator API
+  version: 1.0.0
+  description: Arithmetic operations over two operands.
+servers:
+  - url: http://localhost:8080
+    description: Local
+tags:
+  - name: Calculator
+    description: Basic arithmetic operations
+paths:
+  /api/v1/sum:
+    post:
+      operationId: sum
+      tags:
+        - Calculator
+      summary: Add two operands
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OperationRequest'
+      responses:
+        '200':
+          description: Sum computed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OperationResponse'
+        '400':
+          description: Invalid request
+  /api/v1/sub:
+    post:
+      operationId: sub
+      tags:
+        - Calculator
+      summary: Subtract operator2 from operator1
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OperationRequest'
+      responses:
+        '200':
+          description: Difference computed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OperationResponse'
+        '400':
+          description: Invalid request
+  /api/v1/mul:
+    post:
+      operationId: mul
+      tags:
+        - Calculator
+      summary: Multiply two operands
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OperationRequest'
+      responses:
+        '200':
+          description: Product computed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OperationResponse'
+        '400':
+          description: Invalid request
+  /api/v1/div:
+    post:
+      operationId: div
+      tags:
+        - Calculator
+      summary: Divide operator1 by operator2
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OperationRequest'
+      responses:
+        '200':
+          description: Quotient computed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OperationResponse'
+        '400':
+          description: Invalid request or division by zero
+components:
+  schemas:
+    OperationRequest:
+      type: object
+      required:
+        - operator1
+        - operator2
+      properties:
+        operator1:
+          type: number
+          format: decimal
+          example: 10.5
+        operator2:
+          type: number
+          format: decimal
+          example: 2.0
+    OperationResponse:
+      type: object
+      required:
+        - result
+      properties:
+        result:
+          type: number
+          format: decimal
+          example: 12.5
