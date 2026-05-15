@@ -23,9 +23,9 @@ public class CalculatorService {
 	}
 
 	public CalculatorResult div(BigDecimal operator1, BigDecimal operator2) {
-		if (operator2.compareTo(BigDecimal.ZERO) == 0) {
-			return CalculatorResult.Ko.divisionByZero();
-		}
+		//if (operator2.compareTo(BigDecimal.ZERO) == 0) {
+		//	return CalculatorResult.Ko.divisionByZero();
+		//}
 		return new CalculatorResult.Ok(operator1.divide(operator2, SCALE, RoundingMode.HALF_UP));
 	}
 }

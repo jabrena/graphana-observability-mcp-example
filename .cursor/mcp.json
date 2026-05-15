@@ -1,0 +1,34 @@
+{
+    "mcpServers": {
+        "javadocs": {
+            "type": "http",
+            "url": "https://www.javadocs.dev/mcp"
+        },
+        "serena": {
+            "command": "docker",
+            "args": [
+                "run",
+                "-i",
+                "--rm",
+                "-v",
+                ".:/workspaces/projects/repo",
+                "ghcr.io/oraios/serena:latest",
+                "serena",
+                "start-mcp-server",
+                "--project",
+                "/workspaces/projects/repo"
+            ]
+        },
+        "grafana": {
+            "command": "uvx",
+            "args": [
+                "mcp-grafana"
+            ],
+            "env": {
+                "GRAFANA_URL": "http://localhost:3000",
+                "GRAFANA_USERNAME": "admin",
+                "GRAFANA_PASSWORD": "admin"
+            }
+        }
+    }
+}

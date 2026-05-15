@@ -1,0 +1,39 @@
+x-logging: &loki-logging
+  driver: loki
+  options:
+    # Docker daemon pushes logs (not the app container); use host gateway + published Loki port.
+    loki-url: http://host.docker.internal:3100/loki/api/v1/push
+    loki-external-labels: compose_service=calculator-api,service_name=CalculatorAPI
+    loki-retries: "2"
+    mode: non-blocking
+    loki-pipeline-stages: |
+      - multiline:
+          firstline: '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d{3}'
+          max_wait_time: 3s
+
+services:
+  otel-lgtm:
+    image: grafana/otel-lgtm:0.27.1
+    ports:
+      - "3000:3000"
+      - "3100:3100"
+      - "4317:4317"
+      - "4318:4318"
+    volumes:
+      - ./observability/otelcol-config.yaml:/otel-lgtm/otelcol-config.yaml:ro
+      - ./observability/dashboards-provisioning.yaml:/otel-lgtm/grafana/conf/provisioning/dashboards/spring-boot.yaml:ro
+      - ./observability/dashboards:/otel-lgtm/grafana/conf/provisioning/dashboards/spring-boot:ro
+    environment:
+      GF_DASHBOARDS_DEFAULT_HOME_DASHBOARD_PATH: /otel-lgtm/grafana/conf/provisioning/dashboards/spring-boot/spring-boot-observability.json
+
+  calculator-api:
+    build:
+      context: ./service
+    depends_on:
+      otel-lgtm:
+        condition: service_healthy
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    ports:
+      - "8080:8080"
+    logging: *loki-logging

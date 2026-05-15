@@ -1,0 +1,503 @@
+{
+  "version": 1,
+  "skills": {
+    "001-skills-inventory": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/001-skills-inventory/SKILL.md",
+      "computedHash": "a4585019a5ff52f71d3ebf400e5f2654ed7e92f3080eeabba2e409ea083a2cfc"
+    },
+    "002-agents-inventory": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/002-agents-inventory/SKILL.md",
+      "computedHash": "33e7f9096ac371db14e77c307cfee334a4fde1677d26f5ed917221a4438a276f"
+    },
+    "003-agents-installation": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/003-agents-installation/SKILL.md",
+      "computedHash": "78d6dacdb3774cfc7a949c08ef902b4dd13dcb6f573cf611115ee16d4ca2f789"
+    },
+    "012-agile-epic": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/012-agile-epic/SKILL.md",
+      "computedHash": "22506006f26cbd2a5b7407d7f13227d3b5cf194fbd9d86ebddc9e7bef9f6e6cb"
+    },
+    "013-agile-feature": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/013-agile-feature/SKILL.md",
+      "computedHash": "5072c11ec2f53e5f951e5e27116bea28261d767985a4bb60176189cbe8176cd7"
+    },
+    "014-agile-user-story": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/014-agile-user-story/SKILL.md",
+      "computedHash": "48282fef5122fd519a9dd93367cce71d1b14c090364796546585b5d6fee84a38"
+    },
+    "030-architecture-adr-general": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/030-architecture-adr-general/SKILL.md",
+      "computedHash": "cbfc5ae1f9a2f28ba5ad95a1b49a952bb7f2913e8bb924d033b94d46ccce7fb1"
+    },
+    "031-architecture-adr-functional-requirements": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/031-architecture-adr-functional-requirements/SKILL.md",
+      "computedHash": "5038676037ca2299ae3f75505e19effa36c1c7d5a7297d937ae4cbe3bbd4f7ae"
+    },
+    "032-architecture-adr-non-functional-requirements": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/032-architecture-adr-non-functional-requirements/SKILL.md",
+      "computedHash": "0cac450e53b1e0a73cf29f9d7eb446c5b6608868702bf7f09054ef5e47feab54"
+    },
+    "033-architecture-diagrams": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/033-architecture-diagrams/SKILL.md",
+      "computedHash": "c68b675756281d06779611a2d1745a9457cb1cd652854650d662475064c7bb09"
+    },
+    "041-planning-plan-mode": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/041-planning-plan-mode/SKILL.md",
+      "computedHash": "9c91a98299574d70040b581003cc572b511a15110ee573a41f401124dd34fd32"
+    },
+    "042-planning-openspec": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/042-planning-openspec/SKILL.md",
+      "computedHash": "e67b3dca396ab6c6779125556cfcde475736c72dca4fd90a02949466ac60a23f"
+    },
+    "043-planning-github-issues": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/043-planning-github-issues/SKILL.md",
+      "computedHash": "2766c0ce188b3bba5eeca3b9f3251ed820ec1ab92b95c1012688571475d2547d"
+    },
+    "044-planning-jira": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/044-planning-jira/SKILL.md",
+      "computedHash": "f2be7ef3eb3a5f2549a59bf3d981ed0dd21833a398a616584a2a3ce3162224f6"
+    },
+    "110-java-maven-best-practices": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/110-java-maven-best-practices/SKILL.md",
+      "computedHash": "495d7957e70fed76ef566d79139db55e08d269e4c3caee2a29bc372d69f967a9"
+    },
+    "111-java-maven-dependencies": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/111-java-maven-dependencies/SKILL.md",
+      "computedHash": "3d8c1639b823ce990bdf56157fe0aa5ce0c83db4202b57bb9f46db98de9fb7a2"
+    },
+    "112-java-maven-plugins": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/112-java-maven-plugins/SKILL.md",
+      "computedHash": "efbc14022075c029e8dbabfdbad35267fc5ea6d2049008ad0772745b5d08b81e"
+    },
+    "113-java-maven-documentation": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/113-java-maven-documentation/SKILL.md",
+      "computedHash": "0db202f418c74b64cd2669e8c609b64cf3d419321ec94fb55deded0e13f06376"
+    },
+    "114-java-maven-search": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/114-java-maven-search/SKILL.md",
+      "computedHash": "91f4ef4f51b4ea8ba5b12d365e25e7adc6290142b345d37c18a578f2dc99062f"
+    },
+    "121-java-object-oriented-design": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/121-java-object-oriented-design/SKILL.md",
+      "computedHash": "bc2a59802d6eb0b86df5e5c8aa675eb4d7b1deb98ac1eb1ee912698797af2b34"
+    },
+    "122-java-type-design": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/122-java-type-design/SKILL.md",
+      "computedHash": "0c939e8a6761c0a3bdf625488cbf332329358cd85cb49428c2cd65727dc58905"
+    },
+    "123-java-exception-handling": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/123-java-exception-handling/SKILL.md",
+      "computedHash": "3e7f3950c2f47f1472a44bfd2697beba3c62e5cf01f5fec97e34d8df656c2474"
+    },
+    "124-java-secure-coding": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/124-java-secure-coding/SKILL.md",
+      "computedHash": "f9b24c6a361e5051336a002ca15fe621ba8f88ae141e8ad0bf50cdcce64e67db"
+    },
+    "125-java-concurrency": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/125-java-concurrency/SKILL.md",
+      "computedHash": "26638661c98bf6595f16ee53214a2e2783a427f468d0b69ef537dbe80856753c"
+    },
+    "128-java-generics": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/128-java-generics/SKILL.md",
+      "computedHash": "ca5f8dac3e92b08b15661ffb033947469530ece7cb74ae22c9013a8457e7de21"
+    },
+    "130-java-testing-strategies": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/130-java-testing-strategies/SKILL.md",
+      "computedHash": "ee192cfe77bac0dfe330de17d2eb66d3407a6ada82888521620b1f75115c3f27"
+    },
+    "131-java-testing-unit-testing": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/131-java-testing-unit-testing/SKILL.md",
+      "computedHash": "8acbb07f93cb6fc7ff408bdfb62e104dbb5254ed627f915101c23d7c64a19a00"
+    },
+    "132-java-testing-integration-testing": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/132-java-testing-integration-testing/SKILL.md",
+      "computedHash": "402c83a72d2e4294db25d42e8ad9c5c872b769218b641b092f3e39481513268a"
+    },
+    "133-java-testing-acceptance-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/133-java-testing-acceptance-tests/SKILL.md",
+      "computedHash": "462676d5a8c3b7aed30809f20172f4ee8b52130f62f338cec52128140ef2cf7c"
+    },
+    "141-java-refactoring-with-modern-features": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/141-java-refactoring-with-modern-features/SKILL.md",
+      "computedHash": "d5db6a829a00d975a8e369fb857a2d53e3daf24295fca68e73ebdeb041354728"
+    },
+    "142-java-functional-programming": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/142-java-functional-programming/SKILL.md",
+      "computedHash": "0c78f5ebb388904ad771bebbc07e4824b6fc0a8f7d725137ffc987f1c7ffb531"
+    },
+    "143-java-functional-exception-handling": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/143-java-functional-exception-handling/SKILL.md",
+      "computedHash": "2230322e31351513bea08ea06f9fb07f7bb87e1c95022785bfc3e2c70aedd673"
+    },
+    "144-java-data-oriented-programming": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/144-java-data-oriented-programming/SKILL.md",
+      "computedHash": "cfd78652974dd2d1a4c758648f8910f71a2fdc176ed94d9a95864fe8bb8e7d49"
+    },
+    "145-java-refactoring-high-performance": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/145-java-refactoring-high-performance/SKILL.md",
+      "computedHash": "700818c39fd6b64afef1b6f587d947b0adc2418f9897c7264841e0fd4809156b"
+    },
+    "151-java-performance-jmeter": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/151-java-performance-jmeter/SKILL.md",
+      "computedHash": "868f8884fc3e22b001da68330453d2e961d7aaee5b3d4ba8e45698ac760f5354"
+    },
+    "161-java-profiling-detect": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/161-java-profiling-detect/SKILL.md",
+      "computedHash": "967e46f8f73eb006ab3b7ca6b404f17447dc0d0866a47934014b03ee1b5f5635"
+    },
+    "162-java-profiling-analyze": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/162-java-profiling-analyze/SKILL.md",
+      "computedHash": "5dff681dd4f73998195b8cc4c6224ec37831010175c31698ecb6cddaa2f07f2f"
+    },
+    "163-java-profiling-refactor": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/163-java-profiling-refactor/SKILL.md",
+      "computedHash": "4863be36a8348b186abcf1fb8b2bb5f20d2347bb0d7724db5ecab463bf192fbd"
+    },
+    "164-java-profiling-verify": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/164-java-profiling-verify/SKILL.md",
+      "computedHash": "098cfa6b899346e46913e0b854d8781d33b74a14fe01fc89702c9d48231c9a76"
+    },
+    "170-java-documentation": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/170-java-documentation/SKILL.md",
+      "computedHash": "a7e3960b11da3ac369f34022bee4507824ad95b609756d00e30f860fdbbd1ca8"
+    },
+    "181-java-observability-logging": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/181-java-observability-logging/SKILL.md",
+      "computedHash": "4ac3cecf14dfd46b7e046c0844e43d4fbab4519838650fdbc038ceeb2621e9a6"
+    },
+    "182-java-observability-metrics-micrometer": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/182-java-observability-metrics-micrometer/SKILL.md",
+      "computedHash": "41272d6b91182042325829571a91af648664314be953187583575e9717a5a853"
+    },
+    "183-observability-tracing-opentelemetry": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/183-observability-tracing-opentelemetry/SKILL.md",
+      "computedHash": "85420e02c3a32f30245f570e4a4811df2edec82691ff30c7840ce29f3baab1fa"
+    },
+    "200-agents-md": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/200-agents-md/SKILL.md",
+      "computedHash": "cc6757806add21ef8904ced30e7caaf0ccce0bc46a25910637f2e026e59812ab"
+    },
+    "301-frameworks-spring-boot-core": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/301-frameworks-spring-boot-core/SKILL.md",
+      "computedHash": "e7160850265b4919cf0cf9f32ad72facc019ca8911a671e67f707dd8ae2f9181"
+    },
+    "302-frameworks-spring-boot-rest": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/302-frameworks-spring-boot-rest/SKILL.md",
+      "computedHash": "ccb2ce9a102715ca7db76a734c06ec598f62e6d8d0f94255101e4716c5079b47"
+    },
+    "303-frameworks-spring-boot-validation": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/303-frameworks-spring-boot-validation/SKILL.md",
+      "computedHash": "d99b49051918069f1ed4635137c80bdb5d2ae5f8b16eb3170a2d219c54a2031e"
+    },
+    "304-frameworks-spring-boot-security": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/304-frameworks-spring-boot-security/SKILL.md",
+      "computedHash": "8c98ebc54429308d613fc2fd4964385358cfdbc97a8753735a7c401bb0f603ad"
+    },
+    "311-frameworks-spring-jdbc": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/311-frameworks-spring-jdbc/SKILL.md",
+      "computedHash": "8e88a04b3aee2b335e760efa18a97cd36fe54e3fed3c91c721ce3080de52d862"
+    },
+    "312-frameworks-spring-data-jdbc": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/312-frameworks-spring-data-jdbc/SKILL.md",
+      "computedHash": "81c9ed49b6a158c0a3099d43bffd2bc39c3c85d730062616fdaa52392adf539e"
+    },
+    "313-frameworks-spring-db-migrations-flyway": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/313-frameworks-spring-db-migrations-flyway/SKILL.md",
+      "computedHash": "7cb0ac3cf0312c04263ef6c94245ce9597cbf2f07e45d2708af612cb15ad5489"
+    },
+    "314-frameworks-spring-kafka": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/314-frameworks-spring-kafka/SKILL.md",
+      "computedHash": "1c2114bc5ecd54df3afe801ede2cf5a1c3881bf6aa621a5a6b286b1a52d71b3c"
+    },
+    "315-frameworks-spring-mongodb": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/315-frameworks-spring-mongodb/SKILL.md",
+      "computedHash": "f8650fd7155fa45141779d1fee8e8e5026143f9fea4df2ba21d772fee91d342e"
+    },
+    "321-frameworks-spring-boot-testing-unit-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/321-frameworks-spring-boot-testing-unit-tests/SKILL.md",
+      "computedHash": "c737bb1aa97b9e31c55716b6cc54982126d2592f4eaf4f6b1c3de7a466566f1c"
+    },
+    "322-frameworks-spring-boot-testing-integration-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/322-frameworks-spring-boot-testing-integration-tests/SKILL.md",
+      "computedHash": "757d029fa28366d1914e8775a8180a37c0972cf8eb758a30de87914ddef2e709"
+    },
+    "323-frameworks-spring-boot-testing-acceptance-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/323-frameworks-spring-boot-testing-acceptance-tests/SKILL.md",
+      "computedHash": "6a4fb5bfde9fe3a487f44e8812134bf31976b6c9b72bdc28977793dab3d1334a"
+    },
+    "401-frameworks-quarkus-core": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/401-frameworks-quarkus-core/SKILL.md",
+      "computedHash": "9d1810e6c4f936b759867606550d1fdb1f05c93423323263a6da1337a00b1624"
+    },
+    "402-frameworks-quarkus-rest": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/402-frameworks-quarkus-rest/SKILL.md",
+      "computedHash": "98f8ead56362ff5e24b254ea6ba35d90f196a2c8ad34c4601849461b2019ec67"
+    },
+    "403-frameworks-quarkus-validation": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/403-frameworks-quarkus-validation/SKILL.md",
+      "computedHash": "d8e104d8a263f991a1d6beb5b54390f863298f5d8c86791487488be4db8316e6"
+    },
+    "404-frameworks-quarkus-security": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/404-frameworks-quarkus-security/SKILL.md",
+      "computedHash": "650b2b97e9b3efcc9b92dbc634c3b4aaf6881b9bb57aef0d7c60cc7c7527d2f5"
+    },
+    "411-frameworks-quarkus-jdbc": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/411-frameworks-quarkus-jdbc/SKILL.md",
+      "computedHash": "50a7910414ae46b588b7ceb402e1246f4e12f598dd81810c9a711b3030349b2d"
+    },
+    "412-frameworks-quarkus-panache": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/412-frameworks-quarkus-panache/SKILL.md",
+      "computedHash": "9982f34c4fdbce09d8685886c9ca97e22327baed2190f3943aa8b03febd7bdb6"
+    },
+    "413-frameworks-quarkus-db-migrations-flyway": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/413-frameworks-quarkus-db-migrations-flyway/SKILL.md",
+      "computedHash": "a6c13d8f0f37f7204f3f0e3a149dd89ad310ab5936b4d0d380fe0962e5d58970"
+    },
+    "414-frameworks-quarkus-kafka": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/414-frameworks-quarkus-kafka/SKILL.md",
+      "computedHash": "42f861904418e8038527cf6b7ce06ba685a257b030575f57e8bd9b2d60e74ce6"
+    },
+    "415-frameworks-quarkus-mongodb": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/415-frameworks-quarkus-mongodb/SKILL.md",
+      "computedHash": "55e2b448281c8e1e3e061b9e9ebd13c5df2f774eeaf1e1b837efce93cecf99cc"
+    },
+    "421-frameworks-quarkus-testing-unit-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/421-frameworks-quarkus-testing-unit-tests/SKILL.md",
+      "computedHash": "9d3dc91ab7357cb0a7cebef255602b13a7ff386e27b7f630e22c07ed1b9a2bae"
+    },
+    "422-frameworks-quarkus-testing-integration-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/422-frameworks-quarkus-testing-integration-tests/SKILL.md",
+      "computedHash": "abd8966b7d7b7ff875c00ab763af9c6ff9046d42a3e6d2ba41aef7d378c81537"
+    },
+    "423-frameworks-quarkus-testing-acceptance-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/423-frameworks-quarkus-testing-acceptance-tests/SKILL.md",
+      "computedHash": "3ea02cf41022a96e12d78430346b0ee71e8f708270ce02069978aeb383503628"
+    },
+    "501-frameworks-micronaut-core": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/501-frameworks-micronaut-core/SKILL.md",
+      "computedHash": "7a837ca0c6cbe5be1e702ea94e73e061382362afbaa109ba199fa3406e182884"
+    },
+    "502-frameworks-micronaut-rest": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/502-frameworks-micronaut-rest/SKILL.md",
+      "computedHash": "7d61d889f0617b5d79abd34e02ea9bd3b0cfed1a40f7964d86ad9159b5822f7c"
+    },
+    "503-frameworks-micronaut-validation": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/503-frameworks-micronaut-validation/SKILL.md",
+      "computedHash": "9a41eca39d75c13e2bbe2c98cf5272b25130c37231583ca6227ff6b60fa3ae8a"
+    },
+    "504-frameworks-micronaut-security": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/504-frameworks-micronaut-security/SKILL.md",
+      "computedHash": "5465de99ef943c0647c595967a98e5d3031d735c449642058e99ca1e71a5cea2"
+    },
+    "511-frameworks-micronaut-jdbc": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/511-frameworks-micronaut-jdbc/SKILL.md",
+      "computedHash": "89f075170530836dcb7bfdac3311e8e7b48446308e03a455d8b1941087de42af"
+    },
+    "512-frameworks-micronaut-data": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/512-frameworks-micronaut-data/SKILL.md",
+      "computedHash": "97242b07e0bb7fd861a57b9e5c18044af755f931d09430eee706f19a01a0fc29"
+    },
+    "513-frameworks-micronaut-db-migrations-flyway": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/513-frameworks-micronaut-db-migrations-flyway/SKILL.md",
+      "computedHash": "77fba5b4ca0cf8fb635bd9c901b71dba6b7d942ee34a26c6f5b6c60cbda9ca23"
+    },
+    "514-frameworks-micronaut-kafka": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/514-frameworks-micronaut-kafka/SKILL.md",
+      "computedHash": "5eb6994552140237881cdbc805df08d9039a9c61b47c89037eb695e73cef3d96"
+    },
+    "515-frameworks-micronaut-mongodb": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/515-frameworks-micronaut-mongodb/SKILL.md",
+      "computedHash": "8845797abde6e05d5bdb7f43ac6ab261213587890df534d8011cb75ca5367d14"
+    },
+    "521-frameworks-micronaut-testing-unit-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/521-frameworks-micronaut-testing-unit-tests/SKILL.md",
+      "computedHash": "b0567e2d62d46b0dbb1cff4a09533b7e8aa93d151a1ad0e08c33dcca1d11ca26"
+    },
+    "522-frameworks-micronaut-testing-integration-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/522-frameworks-micronaut-testing-integration-tests/SKILL.md",
+      "computedHash": "558b4d9c2785d50bd3f7d57819d19fa79cc0484286d105e7247675b1514abee2"
+    },
+    "523-frameworks-micronaut-testing-acceptance-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/523-frameworks-micronaut-testing-acceptance-tests/SKILL.md",
+      "computedHash": "ee08e9c8c0edb4ed5875798186f421c0ef6c060e47d5082f2c4a3d55ec2d981f"
+    },
+    "701-technologies-openapi": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/701-technologies-openapi/SKILL.md",
+      "computedHash": "83f8fd763de3e943aac3bba9cf7d85d290474f13742d506a75ea2970b0b5b46a"
+    },
+    "702-technologies-wiremock": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/702-technologies-wiremock/SKILL.md",
+      "computedHash": "215242fcc1d3025c9f49f570a5ae754f629c3e6b2290801c37423057c3a31127"
+    },
+    "703-technologies-fuzzing-testing": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "skillPath": "skills/703-technologies-fuzzing-testing/SKILL.md",
+      "computedHash": "5177ece428e88eb343d52db0cd12d89e96a0da6d40a13f5d3e9cab71bdbc986f"
+    }
+  }
+}
