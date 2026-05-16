@@ -1,6 +1,6 @@
 # Agent Quickstart Guide
 
-Guidance for AI agents and contributors working on **spring-boot-observability-mcp** — a Spring Boot Calculator API with OpenTelemetry export to Grafana LGTM (metrics and traces).
+Guidance for AI agents and contributors working on **graphana-observability-mcp-example** — a Spring Boot Calculator API with OpenTelemetry export to Grafana LGTM (metrics and traces).
 
 ## Your role
 
