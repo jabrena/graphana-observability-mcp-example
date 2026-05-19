@@ -1,3 +1,6 @@
 .DS_Store
 target/
 .agents/
+cats/.cats/
+cats/cats-report/
+cats/cats-report-*/
